@@ -1,0 +1,140 @@
+.services {
+    height: 100vh;
+}
+
+.s-left {
+    position: relative;
+}
+
+.s-left>:nth-child(1) {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.s-left>:nth-child(2) {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.s-left>:nth-child(3) {
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--gray);
+}
+
+.s-left .i-button {
+    width: 7rem;
+    height: 2.3rem;
+    margin-top: 1.7rem;
+}
+
+.s-left button a {
+    color: white;
+    text-decoration: none;
+}
+
+.s-left button:hover a {
+    color: var(--orange);
+}
+
+/************* s-center *************/
+.s-center .img-center {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    height: 17rem;
+    border: 5px solid var(--orange);
+    border-radius: 6px;
+    background-color: #edd0ff;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.s-center {
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+
+.s-center .img-center>:nth-child(1) {
+    margin: auto;
+    width: 5rem;
+}
+
+.s-center .img-center>:nth-child(3) {
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--gray);
+}
+
+.s-center .img-center button {
+    border: none;
+    background: white;
+    color: var(--orange);
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+/************* s-right *************/
+.s-right .img-top {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    height: 17rem;
+    border: 5px solid white;
+    border-radius: 6px;
+    outline: 5px solid var(--orange);
+    background-color: #edd0ff;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 11px 30px 0px rgba(000, 000, 40, 0.30);
+}
+
+.s-img-top {
+    margin-top: -4rem;
+    margin-left: 2.5rem;
+}
+
+.s-right .img-top>:nth-child(1) {
+    margin: auto;
+    width: 5rem;
+}
+
+.s-right .img-top>:nth-child(2) {
+    color: var(--orange);
+}
+
+.s-right .img-top>:nth-child(3) {
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--gray);
+}
+
+.s-right .img-top button {
+    border: none;
+    background: white;
+    color: var(--orange);
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+/************* s-botton *************/
+.img-botton {
+    margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+    .s-left>:nth-child(1) {
+        font-size: 2.3rem;
+    }
+    .s-left>:nth-child(2) {
+        font-size: 2rem;
+    }
+    .services {
+        height: 40vh;
+        margin-top: 15rem;
+    }
+}

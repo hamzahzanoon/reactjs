@@ -1,0 +1,67 @@
+
+ .content {
+    margin: 7rem 0rem;
+ }
+
+ .c-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+.c-left>:nth-child(1) {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.c-left>:nth-child(3) {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--orange);
+}
+
+/************* c-right *************/
+.c-center {
+    /* border: 5px solid white;
+    outline: 5px solid var(--orange); */
+    border-radius: 6px; 
+    text-align: center;
+    padding-top: 3rem;
+    box-shadow: 0px 11px 30px 0px rgba(000, 000, 40, 0.42);
+}
+
+.c-right input, 
+.c-right textarea {
+    width: 80%;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    background: white;
+    border: 2px solid rgba(244, 202, 124, 0.728);
+    outline: none;
+}
+
+.c-right textarea {
+    height: 5rem;
+}
+
+.c-right .c-button {
+    width: 8rem;
+    height: 2.2rem;
+    color: var(--gray);
+}
+
+@media (max-width: 768px) {
+    .c-right input, 
+.c-right textarea {
+    width: 100%;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .c-right textarea {
+    height: 5rem;
+  }
+}
